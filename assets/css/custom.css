@@ -1,0 +1,31 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+.resume-media-thumb {
+  border-radius: 15px;
+  margin-bottom: 5px;
+}
+
+.btn-outline-primary {
+  --bs-btn-color: #0563bb;
+  --bs-btn-border-color: #0563bb;
+  --bs-btn-hover-bg: #0563bb;
+  --bs-btn-hover-border-color: #0563bb;
+  --bs-btn-active-bg: #0563bb;
+  --bs-btn-active-border-color: #0563bb;
+  --bs-btn-disabled-color: #0563bb;
+  --bs-btn-disabled-border-color: #0563bb;
+  color: #0563bb;
+}
+
+.badge-pill {
+  border-radius: 15px;
+}
+
+.badge-primary {
+  background-color: #0563bb;
+}
+
+.btn-outline-external-link {
+  border-radius: 20px;
+}
