@@ -160,19 +160,11 @@ a {
   background: rgba(36, 36, 36, 0.57);
 }
 
-#hero p span {
-  color: #00aeef;
-}
-
 #hero h1 {
   color: #c9c9c9;
 }
 
 #hero .social-links a {
-  color: #777;
-}
-
-#hero p {
   color: #777;
 }
 
@@ -237,7 +229,7 @@ a {
   padding-right: 5px;
 }
 
-@media (min-width: 400px) {
+@media (min-width: 300px) {
   .col-sm-6 {
     flex: 0 0 auto;
     width: 50%;
@@ -267,6 +259,27 @@ a {
 
 @media (max-width: 550px) {
   #hero {
-    background-position-x: right -100px;
+    background-position-x: calc(right -100px);
+  }
+}
+
+#hero p span {
+  color: #00aeef;
+}
+
+@media (min-width: 900px) {
+  #hero p {
+    color: #777;
+  }
+  #hero .social-links a {
+    color: #777;
+  }
+}
+@media (max-width: 900px) {
+  #hero p {
+    color: #b7b7b7;
+  }
+  #hero .social-links a {
+    color: #b7b7b7;
   }
 }
